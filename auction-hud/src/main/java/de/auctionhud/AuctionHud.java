@@ -7,7 +7,7 @@ import net.minecraft.client.gui.PlayerSkinDrawer;
 import net.minecraft.client.network.ClientPlayNetworkHandler;
 import net.minecraft.client.network.PlayerListEntry;
 import net.minecraft.client.render.RenderTickCounter;
-import net.minecraft.entity.player.SkinTextures;
+import net.minecraft.client.util.SkinTextures;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 
