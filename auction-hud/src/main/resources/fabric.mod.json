@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionhud",
+  "version": "${version}",
+  "name": "Auction HUD",
+  "description": "TikTokSW auction: futuristisches Client-HUD für Auktionen. Item wählen, Mindestgebot + Zeit setzen, Gebote per /pay werden aus dem Chat gelesen.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["de.auctionhud.AuctionHudClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
